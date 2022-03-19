@@ -1,0 +1,91 @@
+<html>
+
+<title>exemplo de formulario</title>
+<meta charset="UTF-8">
+<body>
+
+<form action="processar.php" method="post">
+
+<table>
+	<!-- linha 1 -->
+	<tr> 
+		<!-- coluna 1 -->
+		<td>
+			Nome:
+		</td>
+		<!-- coluna 2 -->
+		<td>
+			<input type="text" name="nome"/>
+		</td>
+	</tr>
+	<!-- linha 2 -->
+	<tr>
+		<td>
+			Idade
+		</td>
+		<td>
+			<input type="text" name="idade"/>
+		</td>
+	</tr>
+	
+	<tr>
+		<td>Senha:</td>
+		<td> <input type="password" name="senha"/> </td>
+	</tr>
+	
+	<tr>
+		<td>Obs:</td>
+		<td> <textarea name="comentário" rows="3" cols="40">
+		</textarea>
+		</td>
+	</tr>
+	<tr>
+		<td>Estação pref.</td>
+		<td>
+			<select name="estacao_ano">
+				<option  value="1">Verao</option>
+				<option  value="2">Outono</option>
+				<option  value="3">Inverno</option>
+				<option  value="4">Primavera</option>				
+			</select>
+		</td>
+	</tr>
+	
+	<tr>
+		<td>Time</td>
+		<td>
+			Inter<input type="radio" name="time" value="1"> - 
+			Gremio<input type="radio" name="time" value="2"> - 
+			Juventude<input type="radio" name="time" value="3"> 
+		</td>
+	</tr>
+	
+	<tr>
+		<td>Comidas pref.</td>
+		<td>
+			Lasanha <input type="checkbox" name="comida_1"> - 
+			Xis <input type="checkbox" name="comida_2"> - 
+			Churrasco <input type="checkbox" name="comida_3"> 
+		</td>		
+	</tr>
+	
+	<tr>
+		<td>
+			<input type="button" value="não faco nada"/>
+		</td>
+	</tr>
+	
+	<tr> 
+		<td>
+			<input type="submit" value="enviar"/>
+		</td>	
+	</tr>
+</table>
+
+</form>
+
+
+</body>
+
+
+</html>
