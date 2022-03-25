@@ -1,0 +1,144 @@
+<html>
+
+<meta charset="UTF-8">
+<body>
+
+<center>
+<h2>Escola Virtual</h2>
+<h3>Formulario de pre matricula</h3>
+
+<form action="salvaMatricula.php" method="post">
+
+<!-- inicio tabela principal -->
+<table border="1">
+<tr>
+	<td>
+		Dados Pessoais:
+		<!-- inicio tabela 2 -->
+		<table>
+			<tr>
+				<td>Nome do Aluno</td>
+				<td><input type="text" name="nome_aluno"/> </td>
+			</tr>
+			<tr>
+				<td>Nascimento</td>
+				<td>
+				<input type="text" size="2" name="dia"/> /
+				<input type="text" size="2" name="mes"/> /
+				<input type="text" size="4" name="ano"/>
+				</td>
+			</tr>
+			<tr>
+				<td>NOme da mãe</td>
+				<td>
+				<input type="text" name="nome_mae"/>
+				</td>
+			</tr>
+			<tr>
+				<td>Nome do pai</td>
+				<td>
+				<input type="text" name="nome_pai"/>
+				</td>
+			</tr>
+			<tr>
+				<td>Telefone DDD</td>
+				<td>
+				(<input type="text" size="2" name="ddd"/>)
+				Tel:<input type="text" size="10" name="telefone"/>
+				Ramal: <input type="text" size="4" name="ramal"/>
+				</td>
+			</tr>
+			<tr>
+				<td>E-mail</td>
+				<td>
+				<input type="text" size="40" name="email"/>
+				</td>
+			</tr>
+		</table>
+		<!-- fim tabela 2 -->
+		
+	</td>
+</tr>
+
+<tr>
+	<td>
+	Informações de matricula
+	<table>
+		<tr>
+			<td>Série</td>
+			<td>Turno</td>
+			<td>Atividades Extracurriculares</td>
+		</tr>
+		<tr>
+			<td>
+				<select name="serie">
+					<option value="1">pré-escolar</option>
+					<option value="2">1 grau</option>
+					<option value="3">2 grau</option>
+				</select>			
+			</td>
+			<td>
+				<input type="radio" value="manha" name="turno">Manhã</input>
+			</td>
+			<td>
+			<input type="checkbox" name="ativ_0">Informática</input>
+			</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>
+			<input type="radio" value="tarde" name="turno">Tarde</input>
+			</td>
+			<td>
+			<input type="checkbox" name="ativ_1">Música</input>
+			</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td>
+			<input type="checkbox" name="ativ_3">Balet</input>
+			</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td>
+			<input type="checkbox" name="ativ_4">Pintura</input>
+			</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td>
+			<input type="checkbox" name="ativ_5">Judo</input>
+			</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td>
+			<input type="checkbox" name="ativ_6">Futebol</input>
+			</td>
+		</tr>
+	
+	</table>
+	
+	</td>
+
+</tr>
+<!-- fim tabela principal -->
+</table>
+
+</br>
+<input type="submit" value="envia formulario"/>
+<input type="reset" value="limpar formulario"/>
+
+</form>
+
+</center>
+
+</body>
+
+
+</html>
