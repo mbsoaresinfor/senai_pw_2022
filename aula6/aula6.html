@@ -1,0 +1,85 @@
+<html>
+
+<script type="text/javascript">
+// aqui posso colocar js
+
+var nome = "pedro"; 
+var idade = 15;
+var preco;
+
+// criando funcao
+function mostraDados(valor){
+	alert("Meu nome e: " + valor)
+}
+
+function somar(x, y){
+  var somador = x + y;
+  alert("A SOMA FOI: " + somador);
+}
+
+// chamando a funcao
+//mostraDados("abc");
+var preco1 = 30;
+var preco2 = 40;
+
+//somar(preco1,preco2);
+//somar(300,44);
+//somar(55,60);
+
+// escrevendo na tela
+document.write("<i>isso e codigo JAVA SCRIPT</i>");
+
+document.write("</br><a href='www.uol.com.br'>link uol por js</a>");
+
+document.write("</br><input type='button' value='botao por js'/> ");
+
+var index =0;
+for( index  ; index < 5; index++ ){
+	document.write("</br>linha " + index);
+}
+
+function espaco(quantidade_espaco){	
+	for(var index = 0 ; index < quantidade_espaco; index++){
+		document.write("&nbsp;");
+	}
+}
+
+</script>
+
+<body>
+</br>
+
+<script type="text/javascript">
+	//espaco(100);
+	var maiorIdade = 18;
+	if(maiorIdade >= 18){
+		alert("A pessoa é maior de idade");
+	}else if(maiorIdade >= 12 && maiorIdade < 18){
+		alert("A pessoa é adolescente");
+	}else{
+		alert("A pessoa e crianca");
+	}
+	
+	var meuNome = prompt("digite seu nome");
+	alert("Eu digite o nome: " + meuNome);
+	
+	var valor1 = prompt("digite o valor 1");
+	var valor2 = prompt("digite o valor 2");
+	
+	var valor1Numerico = parseInt(valor1);
+	var valor2Numerico = parseInt(valor2);
+	
+	
+	somar(valor1Numerico,valor2Numerico);
+	
+	
+	
+</script>
+
+<i>isso e codigo html puro</i>
+
+
+
+</body>
+
+</html>
