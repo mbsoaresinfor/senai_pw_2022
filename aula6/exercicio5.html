@@ -1,0 +1,54 @@
+<html>
+
+<body>
+
+<script type="text/javascript">
+
+function somar(){
+	var valor1 = prompt("digite o valor 1");
+	var valor2 = prompt("digite o valor 2");
+	var resultado = parseInt(valor1) +  parseInt(valor2)
+	alert(resultado);
+}
+
+function subtrair(){
+	var valor1 = prompt("digite o valor 1");
+	var valor2 = prompt("digite o valor 2");
+	var resultado = parseInt(valor1) -  parseInt(valor2)
+	alert(resultado);
+}
+
+var possoContinuarLoop = true;
+
+while(possoContinuarLoop){
+
+	var operacao = prompt("Digite a operacao[+,-] ou SAIR");
+	if(operacao == "SAIR"){
+		possoContinuarLoop = false;
+		//break;
+	}
+	else if(operacao == "+"){
+		somar();
+	}
+	else if(operacao == "-"){
+		subtrair();
+	}
+	else{
+		alert("Por favor, digite somente os valores [+,-] ou SAIR");
+	}
+
+}
+
+
+
+
+
+</script>
+
+
+
+
+</body>
+
+
+</html>

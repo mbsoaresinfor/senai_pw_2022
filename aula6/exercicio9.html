@@ -1,0 +1,35 @@
+<html>
+
+<body>
+
+<script type="text/javascript">
+
+
+function validaNomeIdade(nome, idade){
+
+	if(nome == ""){
+		alert("Por favor, digite o campo nome");
+		return false;
+	}
+	else if(idade < 0 || idade > 120){  
+		alert("Por favor digite valor da idade entre 0 a 120");
+		return false;
+	}	
+	else{
+		alert("Sucesso na validacao dos dados");
+		return true;
+	}
+
+}
+
+var meuNome = "pedro"
+var minhaIdade = 500;
+validaNomeIdade(meuNome,minhaIdade);
+
+
+</script>
+
+
+</body>
+
+</html>
