@@ -1,0 +1,29 @@
+
+p{
+	color: blue;
+	font-weight: bold;
+	font-size : 15	;
+}
+
+tr{
+	background-color: #6A5ACD;
+}
+
+.linha_vermelha{
+	background-color : red;
+}
+
+.linha_azul{
+	background-color : blue;
+}
+
+.botao_adicionar{
+	
+	background-color: blue;
+}
+
+.botao_remover{
+	
+	background-color: red;
+}
+

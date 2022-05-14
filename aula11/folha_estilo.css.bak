@@ -1,0 +1,21 @@
+
+p{
+	color: blue;
+	font-weight: bold;
+	font-size : 15	;
+}
+
+tr{
+	background-color: #6A5ACD;
+}
+
+.botao_adicionar{
+	
+	background-color: blue;
+}
+
+.botao_remover{
+	
+	background-color: red;
+}
+

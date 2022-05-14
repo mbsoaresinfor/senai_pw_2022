@@ -1,0 +1,25 @@
+<html>
+<body >
+<link rel="stylesheet" text="text/css" href="folha_estilo.css"/>
+
+
+<p > teste </p>
+
+<p> teste2 </p>
+
+<table>
+<tr style="background-color: red"><td>nome</td></tr>
+<tr><td>ze</td></tr>
+<tr><td>joao</td></tr>
+</table>
+
+<input type= "button" class="botao_adicionar" value="adicionar"/>
+</br>
+<input type= "button" class="botao_remover" value="remover"/>
+
+</br>
+<input type= "button" class="botao_adicionar" value="adicionar"/>
+
+</body>
+
+</html>

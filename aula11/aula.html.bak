@@ -1,0 +1,47 @@
+<html>
+<body >
+<link rel="stylesheet" text="text/css" href="estilo.css"/>
+
+
+<p > ISSO E UM TEXTO DO PARAGRAFO </p>
+
+<p> OUTRO TEXTO PARAGRAFO </p>
+
+<table>
+<tr style="background-color: red"><td>nome</td></tr>
+<tr><td>pedro</td></tr>
+<tr><td>maria</td></tr>
+</table>
+
+<html>
+
+<script src="lib.js"></script>
+
+<script>
+	A();
+</script>
+
+<body >
+
+<form action="teste.php">
+
+<input type="text" id="nome"/>
+
+<input type="submit" onclick="return valida()"/>
+
+<input type="reset" value="limpar campos"/>
+
+<input type="button" onclick="confirmar()"/>
+</form>
+
+
+
+
+</body>
+
+</html>
+
+
+</body>
+
+</html>
